@@ -3,9 +3,6 @@
 @tailwind utilities;
 
 /* ... */
-p {
-  color: red;
-}
 @layer base {
   :root {
 
