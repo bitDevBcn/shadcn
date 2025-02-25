@@ -1,0 +1,31 @@
+{
+	"Vue Component Template": {
+	  "scope": "vue",
+	  "prefix": "vue-template",
+	  "body": [
+		"<template>",
+		"  <div>",
+		"    <header>",
+		"        This is header",
+		"    </header>",
+		"    <main>",
+		"        This is main",
+		"    </main>",
+		"    <footer>",
+		"        This is footer",
+		"    </footer>",
+		"  </div>",
+		"</template>",
+		"",
+		"<script lang=\"ts\" setup>",
+		"",
+		"</script>",
+		"",
+		"<style>",
+		"",
+		"</style>"
+	  ],
+	  "description": "Snippet para generar una plantilla base de un componente Vue con TypeScript y setup."
+	}
+  }
+  

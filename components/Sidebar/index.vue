@@ -10,8 +10,8 @@
       <div class="z-50 flex justify-between w-full h-full p-4 lg:hidden">
         <Logo />
         <Icon class="z-50 cursor-pointer left-2 top-2" size="30" name="icon-park:hamburger-button" @click="open= true" />
-        <div v-if="open" class="absolute top-0 left-0 z-50 w-full h-full h-screen bg-wite">
-          <Icon class="absolute right-4 z-50 cursor-pointer  top-4" size="30" name="ic:round-close" @click="open= false" />
+        <div v-if="open" class="absolute top-0 left-0 z-50 w-full h-screen bg-white">
+          <Icon class="fixed right-4 z-50 cursor-pointer  top-4" size="30" name="ic:round-close" @click="open= false" />
           <SidebarMenu />
         </div>
       </div>
