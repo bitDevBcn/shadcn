@@ -1,7 +1,8 @@
 <script setup>
 </script>
 <template>
-    <div>
-      <p>Sidebar Menu</p>
+    <div class="relative">
+      <div>Mobiel sidebar</div>
+      <div>Desktop sidebar</div>
     </div>
   </template>
