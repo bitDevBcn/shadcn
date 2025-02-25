@@ -1,5 +1,5 @@
 <template>
-    <div class="flex item-start">
+    <div class=" grid lg:flex item-start">
       <div>
         <Sidebar />
         </div>
