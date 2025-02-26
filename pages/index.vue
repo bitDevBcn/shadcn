@@ -5,19 +5,19 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/Tabs";
 const list = [
   {
     title: "Today",
-    component: "<div>Today</div>",
+    component: resolveComponent("TabsToday"),
   },
   {
     title: "Week",
-    component: "<div>Week</div>",
+    component: resolveComponent("TabsWeek"),
   },
   {
     title: "Month",
-    component: "<div>Month</div>",
+    component: resolveComponent("TabsMonth"),
   },
   {
     title: "Year",
-    component: "<div>Year</div>",
+    component: resolveComponent("TabsYear"),
   },
 ];
 </script>
@@ -43,7 +43,7 @@ const list = [
         <TabsContent 
         v-for="(item, index) in list" :key="index"
         :value="item.title">
-          {{ item.component }}
+        <component :is="item.component" />
         </TabsContent>
       </Tabs>
       <section>Charts</section>
